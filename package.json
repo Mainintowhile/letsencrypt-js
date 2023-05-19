@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "shelljs": "0.8.4",
+    "@alicloud/cdn20180510": "1.2.8",
+    "ali-oss": "6.17.1"
+  }
+}
