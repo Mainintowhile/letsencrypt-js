@@ -2,8 +2,8 @@
 
 ```
 简介：
-    自动化将=更新免费https证书letsencrypt
-    使用jenkins的pipeline（cronjob.groovy）调用typescript(cronjob.ts)管理letsencrypt(certbot)证书，每天执行。
+    任意服务器上自动化更新免费https证书letsencrypt到阿里云cdn https
+    使用jenkins的pipeline（cronjob.groovy）调用typescript(cronjob.ts，阿里云ossbucket+cdn https)管理letsencrypt(certbot)证书，每天执行。
     主要流程：
         创建jenkins item；将cronjob.groovy内容写入pipeline
         通过配置代码仓等方式将cronjob.ts,package.json引入worspace
